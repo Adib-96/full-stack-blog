@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import MainCategories from "../components/MainCategories";
+import FeaturePosts from "../components/FeaturePosts";
 
 const HomePage = () => {
   return (
@@ -60,7 +62,12 @@ const HomePage = () => {
           </button>
         </Link>
       </div>
+      {/* Categories */}
+      <div>
+        <MainCategories/>
+      </div>
       {/* Featured Posts */}
+      <FeaturePosts/>
       <div></div>
       {/* Post list */}
       <div></div>
